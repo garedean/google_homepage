@@ -54,7 +54,7 @@ header a:hover {
 
 .apps-link {
 	display: inline-block;
-	background-image: url('<%= asset_path("sprites.png") %>');
+	background-image: url(sprites.png);
 	opacity: .55;
 	background-size: 112px 1828px;
 	background-position: -51px -452px;
@@ -64,7 +64,7 @@ header a:hover {
 
 .notifications-link {
 	display: inline-block;
-	background-image: url('<%= asset_path("sprites.png") %>');
+	background-image: url(sprites.png);
 	opacity: .55;
 	background-size: 112px 1828px;
 	background-position: 0 -69px;
@@ -95,7 +95,7 @@ header a:hover {
 
 .user-pic {
 	display: inline-block;
-	background-image: url('<%= asset_path("user-pic.jpg") %>');
+	background-image: url(user-pic.jpg);
 	background-size: 32px 32px;
 	border-radius: 50%;
 	height: 32px;
@@ -131,7 +131,7 @@ header a:hover {
 	right: -7px;
 	height: 29px;
 	width: 27px;
-	background-image: url('<%= asset_path("mic.gif") %>');
+	background-image: url(mic.gif);
 	background-size: 14px 19px;
 	opacity: .6;
 	background-repeat: no-repeat;
