@@ -4,12 +4,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'rails_12factor', group: :production
-
 group :production do
-  gem 'thin'
-  gem 'pg'
-  gem 'rails_12factor'
+      gem 'rails_12factor'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

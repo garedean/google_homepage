@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 config.assets.enabled = true
 
+config.assets.precompile += [
+      'page.css'
+]
+
 module GoogleHomepage
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
