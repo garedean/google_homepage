@@ -156,7 +156,7 @@ header a:hover {
 	font-size: 68%;
 }
 
-.search input:hover {
+.search input[type="button"]:hover {
 	border-bottom: 2px solid #ccc;
 }
 
