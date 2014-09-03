@@ -5,9 +5,11 @@ group :development, :test do
 end
 
 group :production do
-      gem 'rails_12factor'
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
+gem 'sprockets', '2.11.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use SCSS for stylesheets
@@ -18,14 +20,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
-#group :development, :test do 
-#  gem 'sqlite3', '~> 1.3.9'
-#end
-
-#group :production do
-#  gem 'pg'
-#end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
